@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "公众号 HTML 本地导入（自用版）",
+  "version": "0.1.0",
+  "description": "在已登录的微信公众号编辑页导入本地 HTML；不使用公众号开放 API。",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://mp.weixin.qq.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://mp.weixin.qq.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

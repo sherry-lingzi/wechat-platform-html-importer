@@ -1,0 +1,15 @@
+#codex-wechat-html-import-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  z-index: 2147483000;
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  background: #07c160;
+  color: #fff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .2);
+  font: 600 14px/1 -apple-system, BlinkMacSystemFont, "Microsoft YaHei", sans-serif;
+  cursor: pointer;
+}
+#codex-wechat-html-import-launcher:hover { background: #06ad56; }
